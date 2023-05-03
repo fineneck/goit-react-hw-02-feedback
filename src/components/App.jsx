@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
-import { Section } from './section/Section';
+import { Section } from './section';
 import { Container } from '../utils/container';
-import { FeedbackOptions } from './feedbackOptions/FeedbackOptions';
-import { Statistics } from './statistics/Statistics';
-import { Notification } from './notification/Notification';
+import { FeedbackOptions } from './feedbackOptions';
+import { Statistics } from './statistics';
+import { Notification } from './notification';
 
 export class App extends Component {
   state = {
