@@ -33,7 +33,7 @@ export class App extends Component {
 
     return (
       <Container column>
-        <Section title="Please, leave feedback">
+        <Section title="Please leave feedback">
           <Container>
             <FeedbackOptions
               options={Object.keys(this.state)}
@@ -52,7 +52,7 @@ export class App extends Component {
               positiveFeedback={this.countPositiveFeedback()}
             />
           ) : (
-            <Notification message="No feedback given" />
+            <Notification message="There is no feedback" />
           )}
         </Section>
       </Container>
