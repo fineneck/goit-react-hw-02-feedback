@@ -26,7 +26,7 @@ export const Statistics = ({ good, neutral, bad, total, positiveFeedback }) => {
       </StatItem>
 
       <PositiveText>
-        <StatItem>
+        <StatItem style={{ color: 'green' }}>
           Positive feedback : <Nmb> {positiveFeedback} %</Nmb>
         </StatItem>
       </PositiveText>
